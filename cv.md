@@ -30,7 +30,7 @@ My way into the IT sphere began with the “Gender equality of women in IT”  p
 
 ## Code Example
 
-Task from Codewars: * Define String.prototype.toAlternatingCase (or a similar function/method such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see the initial solution for details) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase. * 
+Task from Codewars: *Define String.prototype.toAlternatingCase (or a similar function/method such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see the initial solution for details) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase.* 
 
 ```
 String.prototype.toAlternatingCase = function () {
@@ -48,8 +48,8 @@ String.prototype.toAlternatingCase = function () {
 
 ## Courses
 
-Frontend Development Coursein ITlogia  
-october 2022 - october 2023
+Frontend Development Course in ITlogia  
+October 2022 - October 2023
 
 I made more than 10 projects from landing pages to projects on Angular with backend requests. 
 
