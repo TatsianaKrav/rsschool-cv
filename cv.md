@@ -1,5 +1,8 @@
 # Tatiana Kravchenko
 *****
+
+![photo](/rsschool-cv/images/photo.jpg)
+
 ### Junior Frontend Developer
 ***
 #### Contacts:
