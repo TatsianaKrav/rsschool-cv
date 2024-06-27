@@ -24,7 +24,7 @@ My way into the IT sphere began with the “Gender equality of women in IT” pr
 
 ## **Code Example**  
 
-Task from Codewars: * Define String.prototype.toAlternatingCase (or a similar function/method such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see the initial solution for details) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase. *  
+Task from Codewars: *Define String.prototype.toAlternatingCase (or a similar function/method such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see the initial solution for details) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase.*  
 
 ```
 String.prototype.toAlternatingCase = function () {
