@@ -51,6 +51,7 @@ body {
 
 .menu li a {
     color: white;
+    text-decoration: none;
     transition: 0.3s;
     border-bottom: 2px solid transparent;
 
@@ -116,12 +117,66 @@ body {
     font-weight: bold;
 }
 
-li a {
+.contact a {
     text-decoration: none;
 }
 
-li a:not(.menu li a):visited {
+.contact a:not(.menu li a):visited {
     color: rgb(147 86 120);
+}
+
+#phone::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icons/contacts/phone.png);
+    background-size: contain;
+}
+
+#email::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icons/contacts/email.png);
+    background-size: cover;
+}
+
+#telegram::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icons/contacts/telegram.png);
+    background-size: cover;
+}
+
+#discord::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icons/contacts/discord.png);
+    background-size: cover;
+}
+
+#linkedin::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icons/contacts/linkedin.png);
+    background-size: cover;
+}
+
+#github::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/icons/contacts/github.png);
+    background-size: cover;
 }
 
 .main-info {
