@@ -1,4 +1,15 @@
-p {
-    font-size: 16px;
-    color: rgb(26, 22, 238);
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: rgb(147 86 120);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 18px;
 }
