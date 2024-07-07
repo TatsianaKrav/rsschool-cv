@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Candara;
+    src: url('assets/fonts/candara.ttf');
+}
+
 
 html {
     scroll-behavior: smooth;
@@ -11,6 +16,7 @@ html {
 
 body {
     background-color: rgb(235 207 222);
+    font-family: Candara, sans-serif;
 }
 
 .container {
@@ -109,7 +115,7 @@ li a {
 }
 
 li a:not(.menu li a):visited {
-    color: rgb(82, 80, 80);
+    color: rgb(147 86 120);
 }
 
 .main-info {
@@ -169,6 +175,9 @@ ul:not(.menu) {
 
 .courses-description a {
     display: inline-block;
+    text-decoration: none;
+    color: rgb(147 86 120);
+    font-weight: bold;
 }
 
 .courses-cetificate {
@@ -194,7 +203,7 @@ ul:not(.menu) {
 }
 
 .footer a:visited {
-    color: rgb(82, 80, 80);
+    color: rgb(235 207 222);
 }
 
 .school-info {
