@@ -35,6 +35,13 @@ li {
     cursor: pointer;
 }
 
+/* .main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
 .main-profile {
     display: flex;
     justify-content: center;
@@ -71,7 +78,6 @@ li {
 
 .name span {
     font-size: 20px;
-    text-decoration: underline;
 }
 
 .nav-contacts {
@@ -87,10 +93,23 @@ li {
     gap: 5px;
 }
 
+.contact span:first-of-type{
+    font-weight: bold;
+}
+
 li a {
     text-decoration: none;
 }
 
 li a:visited {
     color: rgb(82, 80, 80);
+}
+
+.about {
+    padding-top: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgb(147 86 120);
 }
