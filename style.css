@@ -146,6 +146,18 @@ ul:not(.menu) {
     gap: 10px;
 }
 
+.skills-icons {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills-icons img {
+    width: 35px;
+    height: 35px;
+}
+
 .task {
     font-weight: bold;
     margin-bottom: 25px;
