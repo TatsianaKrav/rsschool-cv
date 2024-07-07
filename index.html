@@ -94,6 +94,30 @@
                         </ul>
                     </nav>
                 </div>
+                <div id="code" class="code">
+                    <h2>Code example</h2>
+                    <div class="task">
+                        Task from Codewars:
+                        <span>Define String.prototype.toAlternatingCase (or a similar function/method such
+                            as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see
+                            the
+                            initial solution for details) such that each lowercase letter becomes uppercase and each
+                            uppercase letter becomes lowercase.</span>
+                    </div>
+                    <pre class="solution">
+                        String.prototype.toAlternatingCase = function () {
+ 
+                            let arr = this.split('');
+                            let string = '';
+                           
+                            arr.forEach(item => {
+                              let symbol = item;
+                              item.toUpperCase() === symbol ? string += item.toLowerCase() : string += item.toUpperCase();
+                            })
+                             return string;
+                          } 
+                    </pre>
+                </div>
             </div>
         </div>
     </main>
