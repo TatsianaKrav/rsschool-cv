@@ -112,24 +112,29 @@
                     <div class="task">
                         Task from Codewars:
                         <span>Define String.prototype.toAlternatingCase (or a similar function/method such
-                            as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see
+                            as to_alternating_case/ toAlternatingCase/ ToAlternatingCase in your selected language; see
                             the
                             initial solution for details) such that each lowercase letter becomes uppercase and each
                             uppercase letter becomes lowercase.</span>
                     </div>
+
                     <pre class="solution">
-                        String.prototype.toAlternatingCase = function () {
+                            <code>
+                                String.prototype.toAlternatingCase = function () {
  
-                            let arr = this.split('');
-                            let string = '';
-                           
-                            arr.forEach(item => {
-                              let symbol = item;
-                              item.toUpperCase() === symbol ? string += item.toLowerCase() : string += item.toUpperCase();
-                            })
-                             return string;
-                          } 
-                    </pre>
+                                    let arr = this.split('');
+                                    let string = '';
+                                   
+                                    arr.forEach(item => {
+                                      let symbol = item;
+                                      item.toUpperCase() === symbol ? string += 
+                                      item.toLowerCase() : string += item.toUpperCase();
+                                    })
+                                     return string;
+                                  } 
+                            </code>  
+                        </pre>
+
                 </div>
                 <div id="projects" class="projects">
                     <h2>Projects</h2>

@@ -20,16 +20,13 @@ body {
 }
 
 .container {
-    /* margin: 0 auto; */
-    max-width: 1400px;
+    max-width: 1440px;
     padding: 20px 30px;
     font-size: 18px;
+    margin: 0 auto;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
     background-color: rgb(147 86 120);
 }
 
@@ -37,9 +34,10 @@ body {
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     gap: 20px;
-
     font-size: 20px;
+    flex-wrap: wrap;
 }
 
 .menu li {
@@ -64,14 +62,6 @@ body {
     ;
 }
 
-
-/* .main .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
-
 .main-profile {
     display: flex;
     justify-content: center;
@@ -81,7 +71,6 @@ body {
 
 .photo {
     width: 250px;
-    /* height: 300px; */
     border-radius: 25px;
 }
 
@@ -139,10 +128,7 @@ li a:not(.menu li a):visited {
     display: flex;
     flex-direction: column;
     gap: 40px;
-}
-
-.about {
-    padding-top: 20px;
+    margin-top: 60px;
 }
 
 h2 {
@@ -168,6 +154,10 @@ ul:not(.menu) {
 .task span {
     font-style: italic;
     font-weight: normal;
+}
+
+.solution {
+    white-space: pre-wrap;
 }
 
 .courses {
