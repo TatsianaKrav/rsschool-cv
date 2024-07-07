@@ -93,7 +93,7 @@ li {
     gap: 5px;
 }
 
-.contact span:first-of-type{
+.contact span:first-of-type {
     font-weight: bold;
 }
 
@@ -105,6 +105,12 @@ li a:visited {
     color: rgb(82, 80, 80);
 }
 
+.main-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .about {
     padding-top: 20px;
 }
@@ -112,4 +118,14 @@ li a:visited {
 h2 {
     margin-bottom: 15px;
     border-bottom: 2px solid rgb(147 86 120);
+}
+
+.skills nav {
+    padding-left: 15px;
+}
+
+.skills ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
