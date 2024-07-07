@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#code">Code</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#courses">Courses</a>
+                    </li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main-profile">
+                <div class="photo">
+                    <img src="assets/images/photo.jpg" alt="my photo">
+                </div>
+
+                <div class="profile-description">
+                    <div class="name">
+                        <h1>Tatiana Kravchenko</h1>
+                        <span>Junior Frontend Developer</span>
+                    </div>
+
+                    <nav class="nav-contacts">
+                        <h2 class="contacts-title" id="contacts">Contacts: </h2>
+                        <ul class="contacts">
+                            <li id="phone" class="contact">
+                                <span>Phone:</span>
+                                <span>+37529 379-85-01</span>
+                            </li>
+                            <li id="email" class="contact">
+                                <span>E-mail:</span>
+                                <span>tats.krauchanka@gmail.com</span>
+                            </li>
+                            <li id="telegram" class="contact">
+                                <span>Telegram:</span>
+                                <span>@Tatsiana14</span>
+                            </li>
+                            <li id="discord" class="contact">
+                                <span>Discord</span>
+                                <span>Tatiana (@TatsianaKrav)</span>
+                            </li>
+                            <li id="linkedin" class="contact">
+                                <span>LinkedIn:</span>
+                                <a href="https://www.linkedin.com/in/tatiana-kravchenko-b28ab1297/"
+                                    target="_blank">www.linkedin.com/in/tatiana-kravchenko-b28ab1297</a>
+                            </li>
+                            <li id="github" class="contact">
+                                <span>GitHub: </span>
+                                <a href="https://github.com/TatsianaKrav"
+                                    target="_blank">https://github.com/TatsianaKrav</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="main-info">
+                <div id="about" class="about">
+                    <h2>About myself</h2>
+                    <p>My way into the IT sphere began with the “Gender equality of women in IT” program from the IBM
+                        Institute of Minsk. I took the course of basic programming in Java, but after a while I realized
+                        that it’s Frontend development that appeals to me. I enjoy seeing the result of my work
+                        immedialtely, moreover there is some creative part - working with design layouts. I took a one
+                        year course of Frontend development in ITlogia school. And now I’m trying to improve my skills.
+                        I have intention and a big desire to grow professionally in this sphere.</p>
+                </div>
+                <div id="skills" class="skills">
+                    <h2>Skills</h2>
+                    <div class="skills-icons">
+                        <img src="assets/icons/skills/html5.png" alt="html5">
+                        <img src="assets/icons/skills/css.png" alt="css">
+                        <img src="assets/icons/skills/bootstrap.svg" alt="bootstrap">
+                        <img src="assets/icons/skills/java-script.png" alt="js">
+                        <img src="assets/icons/skills/sass.png" alt="sass">
+                        <img src="assets/icons/skills/less.png" alt="less">
+                        <img src="assets/icons/skills/webpack.png" alt="webpack">
+                        <img src="assets/icons/skills/git.png" alt="git">
+                        <img src="assets/icons/skills/github.png" alt="github">
+                        <img src="assets/icons/skills/angular.png" alt="angular">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>HTML, CSS, Bootstrap</li>
+                            <li>JavaScript, TypeScript</li>
+                            <li>SASS, LESS, Gulp, Grunt, Webpack</li>
+                            <li>Git, Github</li>
+                            <li>Angular</li>
+                            <li>Backend, async/await requests</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="code" class="code">
+                    <h2>Code example</h2>
+                    <div class="task">
+                        Task from Codewars:
+                        <span>Define String.prototype.toAlternatingCase (or a similar function/method such
+                            as to_alternating_case/ toAlternatingCase/ ToAlternatingCase in your selected language; see
+                            the
+                            initial solution for details) such that each lowercase letter becomes uppercase and each
+                            uppercase letter becomes lowercase.</span>
+                    </div>
+
+                    <pre class="solution">
+                            <code>
+                                String.prototype.toAlternatingCase = function () {
+ 
+                                    let arr = this.split('');
+                                    let string = '';
+                                   
+                                    arr.forEach(item => {
+                                      let symbol = item;
+                                      item.toUpperCase() === symbol ? string += 
+                                      item.toLowerCase() : string += item.toUpperCase();
+                                    })
+                                     return string;
+                                  } 
+                            </code>  
+                        </pre>
+
+                </div>
+                <div id="projects" class="projects">
+                    <h2>Projects</h2>
+                    <nav class="projects-links">
+                        <ul>
+                            <li> <a href="https://tatsianakrav.github.io/macaroons/" target="_blank">Macaroons</a></li>
+                            <li><a href="https://tatsianakrav.github.io/dashboard/" target="_blank">Dashboard</a></li>
+                            <li>
+                                <a href="https://tatsianakrav.github.io/tea_project/" target="_blank">Tea Store</a>
+                            </li>
+                            <li>
+                                <a href="https://rolling-scopes-school.github.io/tatsianakrav-JSFE2023Q4/hangman/index.html"
+                                    target="_blank">Hangman</a>
+                            </li>
+                            <li>
+                                <a href="https://rolling-scopes-school.github.io/tatsianakrav-JSFE2023Q4/nonograms/"
+                                    target="_blank">Nonograms</a>
+                            </li>
+                            <li>
+                                <a href="https://rolling-scopes-school.github.io/tatsianakrav-JSFE2023Q4/coffee-house/src/home-page/"
+                                    target="_blank">Coffee
+                                    House</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div id="courses" class="courses">
+                    <h2>Courses</h2>
+                    <div class="courses-description">
+                        <span>Frontend Development Course in ITlogia</span> October 2022 - October 2023
+                        I made more than 10 projects from landing pages to projects on Angular with backend requests.
+
+                        <a href="https://github.com/TatsianaKrav/web_studio" target="_blank">My project</a> developed on
+                        Angular
+                        framework is the site of the web studio.
+
+                        <span>It contains:</span>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>signup and login pages with the validation form</li>
+                            <li>main page with sliders, article cards, modal window</li>
+                            <li>page of blog that includes articles got from backend, pagination, filter by categories
+                            </li>
+                            <li>page of an article with comments block; authorized users can add like or dislike, send a
+                                complaint</li>
+                        </ul>
+                    </nav>
+                    <div class="courses-cetificate">
+                        <img src="assets/images/certificate.jpeg" alt="certificate">
+                    </div>
+                    <div id="languages" class="languages">
+                        <h2>Languages</h2>
+                        <nav>
+                            <ul>
+                                <li>Russian - native</li>
+                                <li>Belarusian - native</li>
+                                <li>English - intermediate</li>
+                                <li> French - advanced</li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://github.com/TatsianaKrav" target="_blank">My GitHub</a>
+            <span>2024</span>
+            <div class="school-info">
+                <img src="assets/images/rs-school-logo.svg" alt="RSSchool">
+                <a href="https://rs.school/courses/javascript-ru" target="_blank"> Front-end Course</a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
