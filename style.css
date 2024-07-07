@@ -42,9 +42,26 @@ body {
     font-size: 20px;
 }
 
+.menu li {
+    transition: 0.5s;
+}
+
+.menu li:hover {
+    transform: scale(1.1);
+}
+
 
 .menu li a {
     color: white;
+    transition: 0.3s;
+    border-bottom: 2px solid transparent;
+
+}
+
+.menu li a:hover {
+    color: rgb(235 207 222);
+    border-bottom: 2px solid rgb(235 207 222);
+    ;
 }
 
 
