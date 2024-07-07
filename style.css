@@ -120,11 +120,11 @@ h2 {
     border-bottom: 2px solid rgb(147 86 120);
 }
 
-.skills nav {
+nav:not(.menu) {
     padding-left: 15px;
 }
 
-.skills ul {
+ul:not(.menu) {
     display: flex;
     flex-direction: column;
     gap: 10px;
