@@ -139,3 +139,37 @@ ul:not(.menu) {
     font-style: italic;
     font-weight: normal;
 }
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.courses-description {
+    margin-bottom: 15px;
+}
+
+.courses-description span:first-of-type {
+    font-weight: bold;
+}
+
+.courses-description span:last-child {
+    display: block;
+    margin-top: 10px;
+}
+
+.courses-description a {
+    display: inline-block;
+}
+
+.courses-cetificate {
+    max-width: 650px;
+    align-self: center;
+
+}
+
+.courses-cetificate img {
+    width: 100%;
+}
