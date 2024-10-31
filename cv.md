@@ -57,5 +57,10 @@ It contains:
 * page of blog that includes articles got from backend, pagination, filter by categories  
 * page of an article with comments block; authorized users can add like or dislike, send a complaint  
 
+## **Languages**
 
+Russian - native  
+Belarusian - native  
+English - intermediate  
+French - advanced 
 
