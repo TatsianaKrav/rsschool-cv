@@ -41,3 +41,21 @@ String.prototype.toAlternatingCase = function () {
 
 ```
 
+## **Courses** 
+
+Frontend Development Course in ITlogia
+October 2022 - October 2023
+
+I made more than 10 projects from landing pages to projects on Angular with backend requests.
+
+My project developed on Angular framework is the site of the web studio - https://github.com/TatsianaKrav/web_studio
+
+It contains:
+
+* signup and login pages with the validation form  
+* main page with sliders, article cards, modal window  
+* page of blog that includes articles got from backend, pagination, filter by categories  
+* page of an article with comments block; authorized users can add like or dislike, send a complaint  
+
+
+
