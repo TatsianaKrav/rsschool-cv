@@ -22,3 +22,22 @@ My way into the IT sphere began with the “Gender equality of women in IT” pr
 * Angular  
 * Backend, async/await requests  
 
+## **Code Example**  
+
+Task from Codewars: *Define String.prototype.toAlternatingCase (or a similar function/method such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see the initial solution for details) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase.*  
+
+```
+String.prototype.toAlternatingCase = function () {
+ 
+  let arr = this.split('');
+  let string = '';
+ 
+  arr.forEach(item => {
+    let symbol = item;
+    item.toUpperCase() === symbol ? string += item.toLowerCase() : string += item.toUpperCase();
+  })
+   return string;
+}   
+
+```
+
